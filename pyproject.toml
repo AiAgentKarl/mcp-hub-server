@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "mcp-hub-server"
+name = "mcp-appstore-server"
 version = "0.1.0"
 description = "The App Store for MCP Servers — discover, search and install MCP servers from one place"
 readme = "README.md"
