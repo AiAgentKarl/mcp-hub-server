@@ -434,6 +434,18 @@ def _seed_catalog(conn):
 
         # ===== Populäre Third-Party Server =====
         {
+            "id": "hyperconsciousness",
+            "name": "Hyperconsciousness",
+            "description": "Developer-alpha Rust MCP server for signed, encrypted, append-only knowledge with scoped, expiring grants. Build from source and initialize a store and read grant using the repository README, then replace the executable path, grant ID and store path in this configuration.",
+            "category": "Agent Infrastructure",
+            "install_command": "/absolute/path/to/hc",
+            "install_args": '["mcp", "--as", "<grant-id>", "--dir", "/absolute/path/to/hc-demo"]',
+            "github_url": "https://github.com/louis030195/hyperconsciousness",
+            "author": "louis030195",
+            "tags": '["memory", "knowledge", "encrypted", "local-first", "rust"]',
+            "requires_api_key": 0, "free_tier": 1,
+        },
+        {
             "id": "mcp-server-github",
             "name": "GitHub MCP Server",
             "description": "Official GitHub integration — repos, issues, PRs, code search, actions, gists",
