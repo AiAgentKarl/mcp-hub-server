@@ -637,6 +637,19 @@ def _seed_catalog(conn):
             "tags": '["reference", "testing", "demo", "example"]',
             "requires_api_key": 0, "free_tier": 1,
         },
+        {
+            "id": "owlmem",
+            "name": "OwlMem",
+            "description": "Shared memory and teamwork for AI agents: knowledge base, memory, tasks, code maps, encrypted vault. Remote MCP server at https://mcp.owlmem.com/mcp — tell your AI once, every AI remembers. Free for two AIs, forever.",
+            "category": "Agent Infrastructure",
+            "install_command": "npx",
+            "install_args": '["-y", "owlmem"]',
+            "github_url": "https://github.com/owlmemhq/owlmem-claude",
+            "pypi_url": "",
+            "author": "owlmemhq",
+            "tags": '["memory", "knowledge-base", "teamwork", "agents", "vault", "tasks"]',
+            "requires_api_key": 0, "free_tier": 1,
+        },
     ]
 
     now = datetime.utcnow().isoformat()
